@@ -1,6 +1,6 @@
-const EmployesModule = (function() {
+const AnsatteModul = (function() {
 
-    const employeArray = [ 
+    const AnsatteArray = [ 
         {
             Navn: "Kai",
             stilling: "Servitør",
@@ -33,7 +33,7 @@ const EmployesModule = (function() {
         },
     ];
 
-    const getAllEmployes = () => employeArray;
+    const getAllEmployes = () => AnsatteArray;
 
     return{
         getAllEmployes
@@ -41,4 +41,4 @@ const EmployesModule = (function() {
 
 }());
 
-export default EmployesModule;
+export default AnsatteModul;
