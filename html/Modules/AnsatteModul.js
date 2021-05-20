@@ -4,32 +4,37 @@ const AnsatteModul = (function() {
         {
             Bilde: "placeholderWaiter-test.png",
             Navn: "Kai",
-            stilling: "Servitør",
+            Stilling: "Servitør",
             Avdeling: "Oslo",
         },
         {
+            Bilde: "placeholderWaiter-test.png",
             Navn: "Mikkel",
-            stilling: "Kok",
+            Stilling: "Kok",
             Avdeling: "Bergen",
         },
         {
+            Bilde: "placeholderWaiter-test.png",
             Navn: "Ismail",
-            stilling: "Servitør",
+            Stilling: "Servitør",
             Avdeling: "Oslo",
         },
         {
+            Bilde: "placeholderWaiter-test.png",
             Navn: "Alexandra",
-            stilling: "Kok",
+            Stilling: "Kok",
             Avdeling: "Trondheim",
         },
         {
+            Bilde: "placeholderWaiter-test.png",
             Navn: "Lars",
-            stilling: "Bartender",
+            Stilling: "Bartender",
             Avdeling: "Oslo",
         },
         {
+            Bilde: "placeholderWaiter-test.png",
             Navn: "Kai",
-            stilling: "Servitør",
+            Stilling: "Servitør",
             Avdeling: "Oslo",
         },
     ];
@@ -38,7 +43,7 @@ const AnsatteModul = (function() {
 
     return{
         getAllEmployes
-    }
+    };
 
 }());
 
