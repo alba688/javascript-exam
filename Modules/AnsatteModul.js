@@ -2,6 +2,7 @@ const AnsatteModul = (function() {
 
     const AnsatteArray = [ 
         {
+            Bilde: "placeholderWaiter-test.png",
             Navn: "Kai",
             stilling: "Servitør",
             Avdeling: "Oslo",
