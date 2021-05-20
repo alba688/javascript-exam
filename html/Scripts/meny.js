@@ -6,7 +6,7 @@ let htmlTxt = "";
 
 MenyModule.getAllMeny().forEach(meny => {
     htmlTxt += `
-        <article class="column is-4">
+        <article class="column is-3">
             <div class="card">
                 <section class="card-image">
                     <img src="../Images/Menu/${meny.Bilde}">
