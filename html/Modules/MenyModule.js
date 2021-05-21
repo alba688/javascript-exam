@@ -2,53 +2,53 @@ const MenyModule = (function() {
 
     const MenyArray = [ 
         {
-            bilde: "pizza-margherita.jpg",
-            navn: "Pizza Marinara",
-            pris: 180,
-            type: "Pizza",
-            beskrivelse: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi in officia nemo ullam. Perferendis sit assumenda, porro illo nostrum adipisci?"
+            Bilde: "pizza-margherita.jpg",
+            Navn: "Pizza Marinara",
+            Pris: 180,
+            Type: "Pizza",
+            Beskrivelse: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi in officia nemo ullam. Perferendis sit assumenda, porro illo nostrum adipisci?"
         },
         {
-            bilde: "pizza-ost.jpg",
-            navn: "Pizza Ost",
-            pris: 150,
-            type: "Pizza", Type
-            beskrivelse: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi in officia nemo ullam. Perferendis sit assumenda, porro illo nostrum adipisci?"
+            Bilde: "pizza-ost.jpg",
+            Navn: "Pizza Ost",
+            Pris: 150,
+            Type: "Pizza",
+            Beskrivelse: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi in officia nemo ullam. Perferendis sit assumenda, porro illo nostrum adipisci?"
         },
         {
-            bilde: "pizza-paprika.jpg",
-            navn: "Pizza Paprika",
-            pris: 200,
-            type: "Pizza",
-            beskrivelse: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi in officia nemo ullam. Perferendis sit assumenda, porro illo nostrum adipisci?"
+            Bilde: "pizza-paprika.jpg",
+            Navn: "Pizza Paprika",
+            Pris: 200,
+            Type: "Pizza",
+            Beskrivelse: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi in officia nemo ullam. Perferendis sit assumenda, porro illo nostrum adipisci?"
         },
         {
-            bilde: "pizza-deluxe.jpg",
-            navn: "Pizza Deluxe",
-            pris: 230,
-            type: "Pizza",
-            beskrivelse: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi in officia nemo ullam. Perferendis sit assumenda, porro illo nostrum adipisci?"
+            Bilde: "pizza-deluxe.jpg",
+            Navn: "Pizza Deluxe",
+            Pris: 230,
+            Type: "Pizza",
+            Beskrivelse: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi in officia nemo ullam. Perferendis sit assumenda, porro illo nostrum adipisci?"
         },
         {
-            bilde: "is-sjokolade.jpg",
-            navn: "Sjokolade Is",
-            pris: 60,
-            type: "Dessert",
-            beskrivelse: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi in officia nemo ullam. Perferendis sit assumenda, porro illo nostrum adipisci?"
+            Bilde: "is-sjokolade.jpg",
+            Navn: "Sjokolade Is",
+            Pris: 60,
+            Type: "Dessert",
+            Beskrivelse: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi in officia nemo ullam. Perferendis sit assumenda, porro illo nostrum adipisci?"
         },
         {
-            bilde: "is-vanilje.jpg",
-            navn: "Vanilje Is",
-            pris: 50,
-            type: "Dessert",
-            beskrivelse: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi in officia nemo ullam. Perferendis sit assumenda, porro illo nostrum adipisci?"
+            Bilde: "is-vanilje.jpg",
+            Navn: "Vanilje Is",
+            Pris: 50,
+            Type: "Dessert",
+            Beskrivelse: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi in officia nemo ullam. Perferendis sit assumenda, porro illo nostrum adipisci?"
         },
         {
-            bilde: "drikk-pepsi.jpg",
-            navn: "Pepsi Max",
-            pris: 30,
-            type: "Drikk",
-            beskrivelse: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi in officia nemo ullam. Perferendis sit assumenda, porro illo nostrum adipisci?"
+            Bilde: "drikk-pepsi.jpg",
+            Navn: "Pepsi Max",
+            Pris: 30,
+            Type: "Drikk",
+            Beskrivelse: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi in officia nemo ullam. Perferendis sit assumenda, porro illo nostrum adipisci?"
         },
         {
             Bilde: "drikk-solo.jpg",
