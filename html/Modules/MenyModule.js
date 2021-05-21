@@ -62,10 +62,18 @@ const MenyModule = (function() {
     const getAllMeny = () => MenyArray;
 
     const getByCategory = (type) => MenyArray.filter (meny => meny.Type.toLowerCase() === type.toLowerCase() );
+
+    const addNewItem = (itemObj) => MenyArray.push(itemObj);
+    // OBS - create itemObj in js file 
+
+    const deleteItem = (deleteIndex) => MenyArray.splice(deleteIndex, 1);
+    //OBS - parameter meaning is splice(startIndex, deleteCount)
     
     return {
         getAllMeny,
-        getByCategory
+        getByCategory,
+        addNewItem,
+        deleteItem
     }
 
 }());

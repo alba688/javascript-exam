@@ -58,8 +58,30 @@ submitBtn.addEventListener("click", () => {
     menySection.innerHTML = htmlSearch;
 })
 
-cancelBtn.addEventListener("click", printMeny());
+cancelBtn.addEventListener("click", printMeny);
 
+addBtn.addEventListener("click", () => {
+    
+    let navnValue = navnInput.value;
+    let typValue = typInput.value;
+    let prisValue = parseInt(prisInput.value);
+    let beskValue = beskInput.value;
+
+    let newObj = {
+        Bilde: "meny-placeholder.jpeg",
+        Navn: navnValue,
+        Pris: prisValue,
+        Type: typValue,
+        Beskrivelse: beskValue
+        };
+
+    MenyModule.addNewItem(newObj);
+    printMeny();
+})
+
+
+
+/*
 addBtn.addEventListener("click", () => {
     let htmlAdd = "";
     let navnValue = navnInput.value;
@@ -83,4 +105,4 @@ addBtn.addEventListener("click", () => {
     `;
     menySection.innerHTML = htmlAdd;
 })
-
+*/
