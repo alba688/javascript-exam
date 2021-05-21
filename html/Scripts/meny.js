@@ -33,7 +33,8 @@ printMeny();
 submitBtn.addEventListener("click", () => {
     let htmlSearch = "";
 
-    MenyModule.getByMenyType(input.value).forEach((menyItem) => {
+    MenyModule.getByCategory(input.value).forEach((menyItem) => {
+        
         htmlSearch += `
             <article class="column is-3">
                 <div class="card">
