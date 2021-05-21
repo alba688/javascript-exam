@@ -24,6 +24,14 @@ function printMeny(){
                         <h2 class="subtitle is-4">${meny.Pris} kr</p>
                         <p class="is-size-6">${meny.Beskrivelse}</p>
                     </section>
+                    <footer class="card-footer">
+                        <div class="card-footer-item">
+                            <span class="tag is-medium is-danger">
+                                Slett
+                                <button class="delete is-small"></button>
+                            </span>
+                        </div>
+                    </footer>
                 </div>
             </article>
         `;
@@ -50,6 +58,14 @@ submitBtn.addEventListener("click", () => {
                         <h2 class="subtitle is-4">${menyItem.Pris} kr</p>
                         <p class="is-size-6">${menyItem.Beskrivelse}</p>
                     </section>
+                    <footer class="card-footer">
+                        <div class="card-footer-item">
+                            <span class="tag is-medium is-danger">
+                                Slett
+                                <button class="delete is-small"></button>
+                            </span>
+                        </div>
+                    </footer>
                 </div>
             </article>
         `;
