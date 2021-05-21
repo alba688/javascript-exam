@@ -2,7 +2,7 @@ const MenyModule = (function() {
 
     const MenyArray = [ 
         {
-            Bilde: "pizza-margherita.jpg",
+            Bilde: "pizza-marinara.jpg",
             Navn: "Pizza Marinara",
             Pris: 180,
             Type: "Pizza",
