@@ -1,7 +1,7 @@
 import MenyModule from '../Modules/MenyModule.js'
 
 const menySection = document.getElementById("meny-section");
-const submitBtn = document.querySelector("#submit-btn"); submit-btn
+const submitBtn = document.querySelector("#submit-btn");
 const cancelBtn = document.querySelector("#cancel-btn");
 const input = document.querySelector("#input-txt");
 
@@ -26,7 +26,6 @@ function printMeny(){
     })
     menySection.innerHTML = htmlTxt;
 }
-
 
 printMeny();
 
