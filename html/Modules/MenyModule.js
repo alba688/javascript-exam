@@ -61,12 +61,12 @@ const MenyModule = (function() {
 
     const getAllMeny = () => MenyArray;
 
-    const getByMenyType = (inputType) => {
-        MenyArray.filter((menyObj) => menyObj.Type.toLowerCase() === inputType.toLowerCase());
-        //console.log(menyObj.Type);
-    }
+    const getByCategory = (type) => MenyArray.filter (meny => meny.Type.toLowerCase() === type.toLowerCase() );
 
-    return{getAllMeny, getByMenyType};
+    return {
+        getAllMeny,
+        getByCategory
+    }
 
 }());
 
