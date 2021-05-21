@@ -4,7 +4,11 @@ const menySection = document.getElementById("meny-section");
 const submitBtn = document.querySelector("#submit-btn");
 const cancelBtn = document.querySelector("#cancel-btn");
 const input = document.querySelector("#input-txt");
-
+const navnInput = document.getElementById("navn-input");
+const typInput = document.getElementById("typ-input");
+const prisInput = document.getElementById("pris-input");
+const beskInput = document.getElementById("info-input");
+const addBtn = document.getElementById("add-btn");
 
 function printMeny(){
     let htmlTxt = "";
@@ -55,3 +59,28 @@ submitBtn.addEventListener("click", () => {
 })
 
 cancelBtn.addEventListener("click", printMeny());
+
+addBtn.addEventListener("click", () => {
+    let htmlAdd = "";
+    let navnValue = navnInput.value;
+    let typValue = typInput.value;
+    let prisValue = parseInt(prisInput.value);
+    let beskValue = beskInput.value;
+
+    htmlAdd += `
+        <article class="column is-3">
+        <div class="card">
+            <section class="card-image">
+                <img src="../Images/Menu/meny-placeholder.jpeg">
+            </section>
+            <section class="card-content">
+                <h1 class="title">${navnValue}</h3>
+                <h2 class="subtitle is-4">${prisValue} kr</p>
+                <p class="is-size-6">${beskValue}</p>
+            </section>
+        </div>
+        </article>
+    `;
+    menySection.innerHTML = htmlAdd;
+})
+

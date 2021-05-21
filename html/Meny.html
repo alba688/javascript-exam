@@ -56,16 +56,6 @@
     <!-- END HERO HEADER -->
 
     <main class="container mt-4">
-        <!--<section>
-            <h1 class="title">Meny</h1>
-            <p class="is-size-4">Søk etter meny typ:</p>
-            <div class="mt-4">
-                <button id="all-btn" class="button is-small">Alt</button>
-                <button id="pizza-btn" class="button is-small">Pizza</button>
-                <button id="dessert-btn" class="button is-small">Dessert</button>
-                <button id="drikk-btn" class="button is-small">Drikk</button>
-            </div>
-        </section>-->
         <section>
             <h1 class="title">Meny</h1>
 
@@ -91,6 +81,76 @@
             </div>
         </section>
         <section id="meny-section" class="columns is-multiline mt-4"></section>
+        <!--<article class="column is-4">
+            <div class="container">
+                <section class="card-content">
+                    <h2>Legg til meny element:</h2>
+                    <input type="text" placeholder="Navn" id="navn">
+                    <input type="text" placeholder="Typ" id="typ">
+                    <input type="text" placeholder="Pris" id="pris">
+                    <input type="text" placeholder="Beskrivelse" id="beskriv">
+                </section>
+            </div>
+        </article>-->
+        
+        <section>
+            <h3 class="is-size-3 mb-4">Leg til meny element:</h3>
+            <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                    <label class="label">Navn</label>
+                </div>
+                <div class="field-body">
+                    <div class="field">
+                        <input id="navn-input" class="input" type="text" placeholder="Navn">
+                    </div>
+                </div>
+            </div>
+            <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                    <label class="label">Typ</label>
+                </div>
+                <div class="field-body">
+                    <div class="field">
+                        <input id="typ-input" class="input" type="text" placeholder="Pizza, Dessert, Drikk">
+                    </div>
+                </div>
+            </div>
+            <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                    <label class="label">Pris</label>
+                </div>
+                <div class="field-body">
+                    <div class="field">
+                        <input id="pris-input" class="input" type="number" placeholder="Pris">
+                    </div>
+                </div>
+            </div>
+            <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                    <label class="label">Beskrivelse</label>
+                </div>
+                <div class="field-body">
+                    <div class="field">
+                        <textarea id="info-input" class="textarea" placeholder="Info om retten..."></textarea>
+                    </div>
+                </div>
+            </div>
+              
+              <div class="field is-horizontal">
+                <div class="field-label">                
+                    
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <div class="control">
+                      <button id="add-btn" class="button is-primary">
+                        Legg til
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
     </main> 
 </body>
 </html>
