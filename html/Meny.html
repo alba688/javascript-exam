@@ -56,7 +56,7 @@
     <!-- END HERO HEADER -->
 
     <main class="container mt-4">
-        <section>
+        <!--<section>
             <h1 class="title">Meny</h1>
             <p class="is-size-4">Søk etter meny typ:</p>
             <div class="mt-4">
@@ -64,6 +64,30 @@
                 <button id="pizza-btn" class="button is-small">Pizza</button>
                 <button id="dessert-btn" class="button is-small">Dessert</button>
                 <button id="drikk-btn" class="button is-small">Drikk</button>
+            </div>
+        </section>-->
+        <section>
+            <h1 class="title">Meny</h1>
+
+            <div class="field is-horizontal">
+                <div class="field-label is-normal">
+                  <label class="label">Søk etter meny typ:</label>
+                </div>
+                <div class="field-body">
+                  <div class="field">
+                    <p class="control">
+                      <input id="input-txt" class="input" type="text" placeholder="drikk, pizza, dessert...">
+                    </p>
+                  </div>
+                </div>
+                <div class="field is-grouped ml-3">
+                    <div class="control">
+                      <button id="submit-btn" class="button is-success">Submit</button>
+                    </div>
+                    <div class="control">
+                      <button id="cancel-btn" class="button is-success is-light">Cancel</button>
+                    </div>
+                  </div>
             </div>
         </section>
         <section id="meny-section" class="columns is-multiline mt-4"></section>
