@@ -13,8 +13,13 @@ const stederSection = document.getElementById("steder-section")
                     <img src="${steder.Bilde}">
                 </section>
                 <section>
-                    <a href="${steder.LokasjonLink}">
-                        <img class="image is-48x48" src="${steder.LokasjonBilde}">
+                    <a class="icon-text" href="${steder.LokasjonLink}">
+                        <span>
+                            <img class="image is-48x48 is-rounded" src="${steder.LokasjonBilde}">
+                        </span>
+                        <span>
+                            ${steder.LokasjonAdresse}
+                        </span>
                     </a>
                 </section>
                 <section class="card-content">
