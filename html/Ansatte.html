@@ -55,23 +55,59 @@
             <!-- END HERO HEADER -->
     
 <!--Ansatte array-->
-        <main class="container mt-4">
-                <h1 class="title"> Ansatte </h1>
-                <section id="ansatte-section" class="columns is-multiline"></section>
-
-                <article class="column is-2">
-                    <div class="container">
-                        <section class="card-content">
-                            <h2>Legg til ny ansatt:</h2>
-                            <input type="text" placeholder="Navn" id="Navn">
-                            <input type="text" placeholder="Stilling" id="Stilling">
-                            <input type="text" placeholder="Avdeling" id="Avdeling">
-                        </section>
-                    </div>
-                </article>    
-        </main>
+<main class="container mt-4">
+    <h1 class="title"> Ansatte </h1>
+        <section id="ansatte-section" class="columns is-multiline"></section>
 
 <!--Add new employe-->
-        
+    <section>
+        <h3 class="is-size-3 mb-4">Legg til ny ansatt</h3>
+        <div class="field is-horizontal">
+            <div class="field-label is-normal">
+                <label class="label">Navn</label>
+            </div>
+            <div class="field-body">
+                <div class="field">
+                    <input id="navn-input" class="input" type="text" placeholder="Skriv inn navn">
+                </div>
+            </div>
+        </div>
+        <div class="field is-horizontal">
+            <div class="field-label is-normal">
+                <label class="label">Stilling</label>
+            </div>
+            <div class="field-body">
+                <div class="field">
+                    <input id="stilling-input" class="input" type="text" placeholder="Skriv inn stilling">
+                </div>
+            </div>
+        </div>
+        <div class="field is-horizontal">
+            <div class="field-label is-normal">
+                <label class="label">Avdeling</label>
+            </div>
+            <div class="field-body">
+                <div class="field">
+                    <input id="avdeling-input" class="input" type="text" placeholder="Skriv inn Avdeling">
+                </div>
+            </div>
+        </div>
+
+        <div class="field is-horizontal">
+            <div class="field-label">
+
+            </div>
+            <div class="field-body">
+                <div class="field">
+                    <div class="control">
+                        <button id="add-btn" class="button is-primary">
+                            Legg til
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main> 
 </body>
 </html>
