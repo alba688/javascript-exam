@@ -41,8 +41,11 @@ const AnsatteModul = (function() {
 
     const getAllEmployes = () => AnsatteArray;
 
+    const addNewEmploye = (employe) => AnsatteArray.push(employe);
+
     return{
-        getAllEmployes
+        getAllEmployes,
+        addNewEmploye
     };
 
 }());
