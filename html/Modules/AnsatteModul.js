@@ -2,37 +2,37 @@ const AnsatteModul = (function() {
 
     const AnsatteArray = [ 
         {
-            Bilde: "placeholderWaiter-test.png",
+            Bilde: "waiter2.png",
             Navn: "Kai",
             Stilling: "Servitør",
             Avdeling: "Oslo",
         },
         {
-            Bilde: "placeholderWaiter-test.png",
+            Bilde: "kok2.png",
             Navn: "Mikkel",
             Stilling: "Kok",
             Avdeling: "Bergen",
         },
         {
-            Bilde: "placeholderWaiter-test.png",
+            Bilde: "waiter2.png",
             Navn: "Ismail",
             Stilling: "Servitør",
             Avdeling: "Oslo",
         },
         {
-            Bilde: "placeholderWaiter-test.png",
+            Bilde: "waitress2.png",
             Navn: "Alexandra",
-            Stilling: "Kok",
+            Stilling: "Bartender",
             Avdeling: "Trondheim",
         },
         {
-            Bilde: "placeholderWaiter-test.png",
+            Bilde: "kok2.png",
             Navn: "Lars",
-            Stilling: "Bartender",
+            Stilling: "Kok",
             Avdeling: "Oslo",
         },
         {
-            Bilde: "placeholderWaiter-test.png",
+            Bilde: "waiter2.png",
             Navn: "Kai",
             Stilling: "Servitør",
             Avdeling: "Oslo",

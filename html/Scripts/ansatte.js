@@ -10,10 +10,10 @@ function printEmployes() {
 let htmlTxt = "";
 AnsatteModul.getAllEmployes().forEach(ansatt => {
     htmlTxt += `
-    <article class="column is-4">
+    <article class="column is-3">
         <div class="card">
-            <section class="card-image">
-                <img src="images/${ansatt.Bilde}">
+            <section class="card-image is-square">
+                <img src="../Images/Icons/${ansatt.Bilde}">
             </section>
             <section class="card-content">
                 <h3>Navn: ${ansatt.Navn}</h3>
@@ -36,7 +36,7 @@ addBtn.addEventListener("click", () => {
     let avdelingValue = avdelingInput.value;
 
     let newObj = {
-        Bilde: "placeholderWaiter-test.png",
+        Bilde: "ansatt.png",
         Navn: navnValue,
         Stilling: stillingValue,
         Avdeling: avdelingValue
