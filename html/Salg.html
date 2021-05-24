@@ -9,6 +9,9 @@
     <!--Bulma-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="../css/Style.css">
+
+    <!--Script-->
+    <script defer type="module" src="Scripts/salg.js"></script>
 </head>
 <body>
         <!-- START HERO HEADER -->
@@ -51,9 +54,64 @@
         <!-- END HERO HEADER -->
 
         <main class="container mt-4">
-            
+
+            <section>
+                <h1 class="title m-4">Månedlig Salgsmål</h1>
+                <h2 class="subtitle m-4">Fast utgifter er 5000 kr hver måned. Her kan du beregne hvor mye du trenger å selge for å tjene penger.</h2>
+    
+            </section>
+            <section class="columns ">
+                <article class="column is-one-third">
+                    <div>
+                        <article class="mt-1">
+                                <div class="level-item has-text-centered">
+                                  <div class="mb-3">
+                                    <p class="heading">Meny Salg</p>
+                                    <p class="title"><span id="salg-span">0</span> kr</p>
+                                  </div>
+                                </div>
+                                <div class="level-item has-text-centered">
+                                  <div class="m-3">
+                                    <p class="heading">Fast Utgift</p>
+                                    <p id="utgift-span" class="title">5000 kr</p>
+                                  </div>
+                                </div>
+                                <div class="level-item has-text-centered">
+                                  <div class="m-3">
+                                    <p class="heading">Fortjenester</p>
+                                    <p class="title"><span id="profit-span" style="color: red;">-5000</span><span id="kr-span" style="color: red"> kr</span></p>
+                                  </div>
+                                </div>                          
+                        </article>
+                    </div>
+                </article>
+                <article class="column is-two-thirds">
+                    <section class="row">
+                        <table class="table is-bordered is-fullwidth">
+                            <thead class="$table-cell-heading-color">
+                                <th>Retten</th>
+                                <th>Pris</th>
+                                <th>Profitt</th>
+                                <th>Legg til salg</th>
+                            </thead>
+                            <tbody id="table-body">
+                            </tbody>
+                        </table>
+                    </section>
+                </article>
+
+            </section>
+
+
+
+
+
+
+
+
+
+            <!---
             <div class = "column">
-                
                     <div class = "card">
                         <header class = "card-header">
                             <p class = "card-header-title is-centered">
@@ -79,7 +137,7 @@
                         </div>
                     </div>
                 
-            </div>
+            </div>-->
 </main>
 
     
