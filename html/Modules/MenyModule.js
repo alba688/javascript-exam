@@ -61,6 +61,8 @@ const MenyModule = (function() {
 
     const getAllMeny = () => MenyArray;
 
+    const getLength = () => MenyArray.length;
+
     const getByCategory = (type) => MenyArray.filter (meny => meny.Type.toLowerCase() === type.toLowerCase() );
 
     const addNewItem = (itemObj) => MenyArray.push(itemObj);
@@ -71,6 +73,7 @@ const MenyModule = (function() {
     
     return {
         getAllMeny,
+        getLength,
         getByCategory,
         addNewItem,
         deleteItem

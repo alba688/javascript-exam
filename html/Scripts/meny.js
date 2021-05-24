@@ -1,7 +1,7 @@
 import MenyModule from '../Modules/MenyModule.js'
 
 const menySection = document.getElementById("meny-section");
-const submitBtn = document.querySelector("#submit-btn");
+const searchBtn = document.querySelector("#search-btn");
 const cancelBtn = document.querySelector("#cancel-btn");
 const input = document.querySelector("#input-txt");
 const navnInput = document.getElementById("navn-input");
@@ -24,25 +24,18 @@ function printMeny(){
                         <h2 class="subtitle is-4">${meny.Pris} kr</p>
                         <p class="is-size-6">${meny.Beskrivelse}</p>
                     </section>
-                    <footer class="card-footer">
-                        <div class="card-footer-item">
-                            <span class="tag is-medium is-danger">
-                                Slett
-                                <button class="delete is-small"></button>
-                            </span>
-                        </div>
-                    </footer>
                 </div>
             </article>
         `;
     })
     menySection.innerHTML = htmlTxt;
+    console.log(MenyModule.getLength());
 }
 
 printMeny();
 
 
-submitBtn.addEventListener("click", () => {
+searchBtn.addEventListener("click", () => {
     let htmlSearch = "";
 
     MenyModule.getByCategory(input.value).forEach((menyItem) => {
@@ -58,14 +51,6 @@ submitBtn.addEventListener("click", () => {
                         <h2 class="subtitle is-4">${menyItem.Pris} kr</p>
                         <p class="is-size-6">${menyItem.Beskrivelse}</p>
                     </section>
-                    <footer class="card-footer">
-                        <div class="card-footer-item">
-                            <span class="tag is-medium is-danger">
-                                Slett
-                                <button class="delete is-small"></button>
-                            </span>
-                        </div>
-                    </footer>
                 </div>
             </article>
         `;
@@ -77,18 +62,13 @@ submitBtn.addEventListener("click", () => {
 cancelBtn.addEventListener("click", printMeny);
 
 addBtn.addEventListener("click", () => {
-    
-    let navnValue = navnInput.value;
-    let typValue = typInput.value;
-    let prisValue = parseInt(prisInput.value);
-    let beskValue = beskInput.value;
 
     let newObj = {
         Bilde: "meny-placeholder.jpeg",
-        Navn: navnValue,
-        Pris: prisValue,
-        Type: typValue,
-        Beskrivelse: beskValue
+        Navn: navnInput.value,
+        Pris: parseInt(prisInput.value),
+        Type: typInput.value,
+        Beskrivelse: beskInput.value
         };
 
     MenyModule.addNewItem(newObj);
@@ -97,28 +77,13 @@ addBtn.addEventListener("click", () => {
 
 
 
-/*
-addBtn.addEventListener("click", () => {
-    let htmlAdd = "";
-    let navnValue = navnInput.value;
-    let typValue = typInput.value;
-    let prisValue = parseInt(prisInput.value);
-    let beskValue = beskInput.value;
-
-    htmlAdd += `
-        <article class="column is-3">
-        <div class="card">
-            <section class="card-image">
-                <img src="../Images/Menu/meny-placeholder.jpeg">
-            </section>
-            <section class="card-content">
-                <h1 class="title">${navnValue}</h3>
-                <h2 class="subtitle is-4">${prisValue} kr</p>
-                <p class="is-size-6">${beskValue}</p>
-            </section>
-        </div>
-        </article>
-    `;
-    menySection.innerHTML = htmlAdd;
-})
-*/
+/* TO USE WITH DELETE FUNCTION IF NECESSARY
+<footer class="card-footer">
+    <div class="card-footer-item">
+        <span class="tag is-medium is-danger">
+            Slett
+                <button class="delete is-small"></button>
+        </span>
+    </div>
+</footer>
+ */
