@@ -7,6 +7,16 @@
     opacity: 1;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: beige;
+    margin: 0px;
+    padding: 5px;
+}
 /*AnsatteSide*/
 
 
