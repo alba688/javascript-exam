@@ -43,9 +43,12 @@ const AnsatteModul = (function() {
 
     const addNewEmploye = (employe) => AnsatteArray.push(employe);
 
+    const deleteItem = (deleteIndex) => AnsatteArray.splice(deleteIndex, 1);
+
     return{
         getAllEmployes,
-        addNewEmploye
+        addNewEmploye,
+        deleteItem
     };
 
 }());
