@@ -10,7 +10,7 @@ const stederSection = document.getElementById("steder-section")
             <div class="card">
                 <h2 class="title has-text-centered mt-4">${steder.Lokasjon}</h2>
                 <section class="card-image">
-                    <img src="${steder.Bilde}">
+                    <img src="${steder.Bilde}" alt="${steder.Alt}">
                 </section>
                 <section>
                     <a class="icon-text" href="${steder.LokasjonLink}">

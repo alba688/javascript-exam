@@ -13,7 +13,7 @@ AnsatteModul.getAllEmployes().forEach((ansatt, mIndex) => {
     <article class="column is-3">
         <div class="card">
             <section class="card-image is-square">
-                <img src="../Images/Icons/${ansatt.Bilde}">
+                <img src="../Images/Icons/${ansatt.Bilde}" alt="${ansatt.Alt}">
             </section>
             <section class="card-content">
                 <h3>Navn: ${ansatt.Navn}</h3>
