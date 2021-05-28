@@ -1,6 +1,6 @@
-const AnsatteModul = (function() {
+const employeModul = (function() {
 
-    const AnsatteArray = [ 
+    const employeArray = [ 
         {
             Bilde: "waiter2.png",
             Navn: "Kai",
@@ -39,11 +39,11 @@ const AnsatteModul = (function() {
         },
     ];
 
-    const getAllEmployes = () => AnsatteArray;
+    const getAllEmployes = () => employeArray;
 
-    const addNewEmploye = (employe) => AnsatteArray.push(employe);
+    const addNewEmploye = (employe) => employeArray.push(employe);
 
-    const deleteItem = (deleteIndex) => AnsatteArray.splice(deleteIndex, 1);
+    const deleteItem = (deleteIndex) => employeArray.splice(deleteIndex, 1);
 
     return{
         getAllEmployes,
@@ -53,4 +53,4 @@ const AnsatteModul = (function() {
 
 }());
 
-export default AnsatteModul;
+export default employeModul;
