@@ -10,7 +10,7 @@ const AnsatteModul = (function() {
         {
             Bilde: "kok2.png",
             Navn: "Mikkel",
-            Stilling: "Kok",
+            Stilling: "Kokk",
             Avdeling: "Bergen",
         },
         {
@@ -28,7 +28,7 @@ const AnsatteModul = (function() {
         {
             Bilde: "kok2.png",
             Navn: "Lars",
-            Stilling: "Kok",
+            Stilling: "Kokk",
             Avdeling: "Oslo",
         },
         {
