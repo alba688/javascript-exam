@@ -3,6 +3,7 @@ const MenyModule = (function() {
     const MenyArray = [ 
         {
             Bilde: "pizza-marinara.jpg",
+            Alt: "Pizza marinara bilde",
             Navn: "Pizza Marinara",
             Pris: 180,
             Profitt: 150,
@@ -11,6 +12,7 @@ const MenyModule = (function() {
         },
         {
             Bilde: "pizza-ost.jpg",
+            Alt: "Pizza ost bilde",
             Navn: "Pizza Ost",
             Pris: 150,
             Profitt: 130,
@@ -19,6 +21,7 @@ const MenyModule = (function() {
         },
         {
             Bilde: "pizza-paprika.jpg",
+            Alt: "Pizza paprika bilde",
             Navn: "Pizza Paprika",
             Pris: 200,
             Profitt: 180,
@@ -27,6 +30,7 @@ const MenyModule = (function() {
         },
         {
             Bilde: "pizza-deluxe.jpg",
+            Alt: "Pizza deluxe bilde",
             Navn: "Pizza Deluxe",
             Pris: 230,
             Profitt: 190,
@@ -35,6 +39,7 @@ const MenyModule = (function() {
         },
         {
             Bilde: "is-sjokolade.jpg",
+            Alt: "Sjokolade is bilde",
             Navn: "Sjokolade Is",
             Pris: 60,
             Profitt: 50,
@@ -43,6 +48,7 @@ const MenyModule = (function() {
         },
         {
             Bilde: "is-vanilje.jpg",
+            Alt: "Vanilje is bilde",
             Navn: "Vanilje Is",
             Pris: 60,
             Profitt: 50,
@@ -51,6 +57,7 @@ const MenyModule = (function() {
         },
         {
             Bilde: "drikk-pepsi.jpg",
+            Alt: "Pepsi drikke bilde",
             Navn: "Pepsi Max",
             Pris: 30,
             Profitt: 20,
@@ -59,6 +66,7 @@ const MenyModule = (function() {
         },
         {
             Bilde: "drikk-solo.jpg",
+            Alt: "Solo drikke bilde",
             Navn: "Solo",
             Pris: 30,
             Profitt: 20,

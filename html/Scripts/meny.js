@@ -17,7 +17,7 @@ function printMeny(){
             <article class="column is-3">
                 <div class="card">
                     <section class="card-image">
-                        <img src="../Images/Menu/${meny.Bilde}">
+                        <img src="../Images/Menu/${meny.Bilde}" alt="${meny.Alt}>
                     </section>
                     <section class="card-content">
                         <h1 class="title">${meny.Navn}</h3>
