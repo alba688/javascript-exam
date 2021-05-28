@@ -1,12 +1,12 @@
 import MenyModule from '../Modules/MenyModule.js'
 
-const menySection = document.getElementById("meny-section");
+const menySection = document.getElementById("menu-section");
 const searchBtn = document.querySelector("#search-btn");
 const cancelBtn = document.querySelector("#cancel-btn");
 const input = document.querySelector("#input-txt");
-const navnInput = document.getElementById("navn-input");
-const typInput = document.getElementById("typ-input");
-const prisInput = document.getElementById("pris-input");
+const navnInput = document.getElementById("name-input");
+const typInput = document.getElementById("type-input");
+const prisInput = document.getElementById("price-input");
 const beskInput = document.getElementById("info-input");
 const addBtn = document.getElementById("add-btn");
 
