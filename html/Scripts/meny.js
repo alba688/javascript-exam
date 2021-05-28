@@ -43,9 +43,11 @@ function printMeny(){
     const removeItem = () => {
         document.querySelectorAll("#delete-btn").forEach (button => { // identifies the delete button
             button.addEventListener("click", ( e ) => { // identifies the delete button was clicked
-                const itemIndex = button.value; // finds the value (array index) that we added to the button HTML above
-                MenyModule.deleteItem(itemIndex); // passes that index into the deleteItem function within the Module
-                printMeny(); //runs printMeny again to update HTML on the page to show item was deleted
+                if (confirm("Hei! Er du helt sikkert du vil slette?")) {
+                    const itemIndex = button.value; // finds the value (array index) that we added to the button HTML above
+                    MenyModule.deleteItem(itemIndex); // passes that index into the deleteItem function within the Module
+                    printMeny(); //runs printMeny again to update HTML on the page to show item was deleted
+                }
             })
         })
     
