@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../css/Style.css">
     <!--Script-->
     <script defer type="module" src="Scripts/steder.js"></script>
+    <script type="module" src="Scripts/Shared/hamburger-nav.js"></script>
 </head>
 <body>
         <!-- START HERO HEADER -->
@@ -20,6 +21,13 @@
             <div class="hero-head">
                 <nav class="navbar">
                     <div class="container">
+                        <!-- BURGER BAR -->
+                        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                        </a>
                         <div class="navbar-menu">
                             <div class="navbar-end">
                                 <a class="navbar-item" href="Index.html">
@@ -54,11 +62,9 @@
         <!-- END HERO HEADER -->
         <!-- Locations Start -->
         <main class="container mt-4">
-                
             <h1 class="title">Steder</h1>
-            <section id="steder-section" class="columns is-multiline mt-4">
-                <div class="container"></div>
-            </section>
+                <section id="steder-section" class="container mt-4">
+                </section>
         </main>
         <!-- Locations End-->
         <footer>
