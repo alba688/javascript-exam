@@ -8,6 +8,7 @@ const MenyModule = (function() {
             Pris: 180,
             Profitt: 150,
             Type: "Pizza",
+            SpanId: 0,
             Beskrivelse: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi in officia nemo ullam. Perferendis sit assumenda, porro illo nostrum adipisci?"
         },
         {
@@ -17,6 +18,7 @@ const MenyModule = (function() {
             Pris: 150,
             Profitt: 130,
             Type: "Pizza",
+            SpanId: 1,
             Beskrivelse: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi in officia nemo ullam. Perferendis sit assumenda, porro illo nostrum adipisci?"
         },
         {
@@ -26,6 +28,7 @@ const MenyModule = (function() {
             Pris: 200,
             Profitt: 180,
             Type: "Pizza",
+            SpanId: 2,
             Beskrivelse: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi in officia nemo ullam. Perferendis sit assumenda, porro illo nostrum adipisci?"
         },
         {
@@ -35,6 +38,7 @@ const MenyModule = (function() {
             Pris: 230,
             Profitt: 190,
             Type: "Pizza",
+            SpanId: 3,
             Beskrivelse: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi in officia nemo ullam. Perferendis sit assumenda, porro illo nostrum adipisci?"
         },
         {
@@ -44,6 +48,7 @@ const MenyModule = (function() {
             Pris: 60,
             Profitt: 50,
             Type: "Dessert",
+            SpanId: 4,
             Beskrivelse: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi in officia nemo ullam. Perferendis sit assumenda, porro illo nostrum adipisci?"
         },
         {
@@ -53,6 +58,7 @@ const MenyModule = (function() {
             Pris: 60,
             Profitt: 50,
             Type: "Dessert",
+            SpanId: 5,
             Beskrivelse: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi in officia nemo ullam. Perferendis sit assumenda, porro illo nostrum adipisci?"
         },
         {
@@ -62,6 +68,7 @@ const MenyModule = (function() {
             Pris: 30,
             Profitt: 20,
             Type: "Drikk",
+            SpanId: 6,
             Beskrivelse: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi in officia nemo ullam. Perferendis sit assumenda, porro illo nostrum adipisci?"
         },
         {
@@ -71,6 +78,7 @@ const MenyModule = (function() {
             Pris: 30,
             Profitt: 20,
             Type: "Drikk",
+            SpanId: 7,
             Beskrivelse: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi in officia nemo ullam. Perferendis sit assumenda, porro illo nostrum adipisci?"
         }
     ];

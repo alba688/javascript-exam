@@ -14,7 +14,8 @@ const salgDiagram = () => {
                 <td>${element.Navn}</td>
                 <td>${element.Pris}</td>
                 <td>${element.Profitt}</td>
-                <td><button data-price="${element.Profitt}" class="button is-info">Legg til</button></td>
+                <td><button data-price="${element.Profitt}" class="button is-small is-info">Legg til</button></td>
+                <td>Solgt: <span id="${element.SpanId}">0</span></td>
             </tr>
         `;
 
@@ -25,8 +26,16 @@ const salgDiagram = () => {
 
 const setButtonEvent = () => {
     let sales = 0;
+    let click1 = 0;
+    let click2 = 0;
+    let click3 = 0;
+    let click4 = 0;
+    let click5 = 0;
+    let click6 = 0;
+    let click7 = 0;
+    let click8 = 0;
 
-    document.querySelectorAll("button").forEach (button => {
+    document.querySelectorAll("button").forEach ((button, index) => {
         button.addEventListener("click", (e) => {
             sales += parseInt(e.currentTarget.dataset.price);
             salgSpan.innerHTML = sales;
@@ -49,6 +58,44 @@ const setButtonEvent = () => {
                 krSpan.style.color = "red";
             }
         })
+
+        button.addEventListener("click", () => {
+            switch (index) {
+                case 0:
+                    click1 ++;
+                    document.getElementById(index).innerHTML = click1;
+                    break;
+                case 1:
+                    click2 ++;
+                    document.getElementById(index).innerHTML = click2;
+                    break;
+                case 2:
+                    click3 ++;
+                    document.getElementById(index).innerHTML = click3;
+                    break;
+                case 3:
+                    click4 ++;
+                    document.getElementById(index).innerHTML = click4;
+                    break;
+                case 4:
+                    click5 += 1;
+                    document.getElementById(index).innerHTML = click5;
+                    break;
+                case 5:
+                    click6 += 1;
+                    document.getElementById(index).innerHTML = click6;
+                    break;
+                case 6:
+                    click7 += 1;
+                    document.getElementById(index).innerHTML = click7;
+                    break;
+                case 7:
+                    click8 += 1;
+                    document.getElementById(index).innerHTML = click8;
+                    break;
+            };
+
+        });
     })
 }
 
